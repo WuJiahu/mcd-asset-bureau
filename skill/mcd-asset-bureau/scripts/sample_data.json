@@ -1,0 +1,92 @@
+{
+  "_comment": "基于 2026-10-23 16:11 实测响应的真实快照，用于验证脚本与演示。原价字段为门店核价结果，未核出的保留 null。",
+  "as_of": "2026-10-23T16:11:00+08:00",
+  "points": {
+    "available": 111.7,
+    "accumulative": 833.6,
+    "expired": 721.9,
+    "current_month_expire": 24.8,
+    "unit_value": 0.04
+  },
+  "coupons": [
+    {
+      "id": "c001",
+      "name": "11.9元麦辣鸡腿堡",
+      "price_with": 11.9,
+      "price_without": 25.0,
+      "expires_at": "2026-10-23T23:59:00+08:00",
+      "channels": ["到店", "外送"],
+      "time_window": "10:30-23:59",
+      "weekdays": [1, 2, 3, 4, 5]
+    },
+    {
+      "id": "c002",
+      "name": "19.9元王牌炸鸡任选2",
+      "price_with": 19.9,
+      "price_without": 39.0,
+      "expires_at": "2026-10-23T23:59:00+08:00",
+      "channels": ["到店", "外送"],
+      "time_window": "10:30-23:59",
+      "weekdays": [1, 2, 3, 4, 5]
+    },
+    {
+      "id": "c003",
+      "name": "9.9元中杯冰美式",
+      "price_with": 9.9,
+      "price_without": 19.0,
+      "expires_at": "2026-10-28T23:59:00+08:00",
+      "channels": ["到店", "外送"]
+    },
+    {
+      "id": "c004",
+      "name": "人气麦旋风买一送一",
+      "price_with": 15.0,
+      "price_without": 30.0,
+      "expires_at": "2026-10-25T23:59:00+08:00",
+      "channels": ["到店"],
+      "time_window": "10:00-22:00"
+    },
+    {
+      "id": "c005",
+      "name": "1024\u201c码\u201d力翻倍",
+      "price_with": 20.48,
+      "price_without": null,
+      "expires_at": "2026-10-29T23:59:00+08:00",
+      "channels": ["到店"],
+      "time_window": "10:30-23:59",
+      "note": "\u9f99\u7130 2 \u4ef6\u5957\uff0c\u7ec4\u5408\u5238\u9700\u5b9e\u7b97\u9762\u503c"
+    },
+    {
+      "id": "c006",
+      "name": "1024\u201c码\u201d力翻倍",
+      "price_with": 20.48,
+      "price_without": null,
+      "expires_at": "2026-10-29T23:59:00+08:00",
+      "channels": ["到店"],
+      "time_window": "10:30-23:59",
+      "note": "\u9f99\u7130 2 \u4ef6\u5957\uff0c\u7ec4\u5408\u5238\u9700\u5b9e\u7b97\u9762\u503c"
+    }
+  ],
+  "prizes": [
+    {
+      "id": "p001",
+      "name": "处暑",
+      "kind": "门票",
+      "status": "可用",
+      "expires_at": null,
+      "time_remind": "",
+      "record_time": "2026-08-27 18:19:18"
+    }
+  ],
+  "windows": [
+    {
+      "id": "w001",
+      "name": "麦金喜抽积分霸王餐",
+      "action": "立即预约抽奖",
+      "starts_at": "2026-10-24T00:00:00+08:00",
+      "ends_at": "2026-10-24T23:59:00+08:00",
+      "expected_value": null,
+      "cost": 0
+    }
+  ]
+}
